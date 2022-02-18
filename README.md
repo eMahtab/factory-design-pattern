@@ -83,3 +83,16 @@ public abstract class Calendar implements Serializable, Cloneable, Comparable<Ca
 }
 
 ```
+
+## JapaneseImperialCalendar extends Calendar
+```java
+class JapaneseImperialCalendar extends Calendar {
+
+}
+```
+## GregorianCalendar extends Calendar
+```java
+public class GregorianCalendar extends Calendar {
+
+}
+```
