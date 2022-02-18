@@ -2,6 +2,12 @@
 
 Below is the Code from Java 1.8 JDK
 
+Calendar is an abstract class which have subclasses e.g. `GregorianCalendar` and `JapaneseImperialCalendar`.
+Also Calendar class have overloaded static `getInstance()` method, and one static `createCalendar()` method.
+The `getInstance()` method finally calls the `createCalendar()` method.
+
+`createCalendar()` method returns the concrete Calendar instance e.g. `GregorianCalendar` or `JapaneseImperialCalendar` etc. depending on the `TimeZone` and `Locale` info passed to `createCalendar()` method.
+
 ```java
 
 Calendar is an Abstract class
