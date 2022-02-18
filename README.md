@@ -1,6 +1,6 @@
 # Factory Pattern
 
-
+Below is the Code from Java 1.8 JDK
 
 ```java
 
